@@ -1,4 +1,3 @@
-# Jenkins-Demo
 pipeline
 {
 agent any{
