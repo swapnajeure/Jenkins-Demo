@@ -1,3 +1,21 @@
 # Jenkins-Demo
-Demo for Jenkins
-This is sample file
+pipeline
+{
+agent any{
+stage('Build"){
+steps{
+echo "Building"
+}
+}
+stage('Test"){
+steps{
+echo "Testing"
+}
+}
+stage('Deploy"){
+steps{
+echo "Deploying"
+}
+}
+}
+}
